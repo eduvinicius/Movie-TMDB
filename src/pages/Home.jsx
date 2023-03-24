@@ -15,7 +15,6 @@ const Home = () => {
     const res = await fetch(url);
     const data = await res.json();
 
-    console.log(data)
     setTopMovies(data.results)
   };
 
